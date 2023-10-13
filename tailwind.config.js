@@ -5,7 +5,7 @@ export default {
     colors: {
       primary: "#122932",
       secondary: "#F6AE2D",
-      background: "#FEF0D8",
+      background: "#F7FEE3",
     },
   },
   plugins: [],
