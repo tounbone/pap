@@ -1,7 +1,7 @@
 export default function IniciarSessao() {
   return (
     <div>
-      <div className="w-80 uppercase p-3 border-2 rounded-t border-primary text-primary ">
+      <div className="w-80 uppercase p-3 border-2 rounded-t bg-secondary border-primary text-primary ">
         <p className="font-bold">Iniciar sessão</p>
       </div>
       <div className="w-80 p-3 border-2 rounded-b border-primary text-background bg-primary">
@@ -14,7 +14,7 @@ export default function IniciarSessao() {
             <p>Não está registado?</p>
             <p className="font-bold hover:underline hover:cursor-pointer">Crie uma conta</p>
           </div>
-          <button className="uppercase font-bold bg-background text-primary rounded py-2 w-full">
+          <button className="uppercase font-bold bg-secondary text-primary rounded py-2 w-full">
             Entrar
           </button>
         </div>
