@@ -21,7 +21,7 @@ function createWindow() {
   // win.loadFile("index.html");
   win.loadURL(
     isDev
-      ? "http://localhost:5173"
+      ? "http://projeto-pap.netlify.app/"
       : `file://${path.join(__dirname, "../build/index.html")}`
   );
 }
