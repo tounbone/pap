@@ -20,6 +20,6 @@
     "noUnusedParameters": true,
     "noFallthroughCasesInSwitch": true
   },
-  "include": ["src"],
+  "include": ["src", "@/components/ui/button.tsx"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }

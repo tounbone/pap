@@ -4,9 +4,9 @@ const isDev = require("electron-is-dev");
 function createWindow() {
   // Create the browser window.
   const win = new BrowserWindow({
-    width: 1100,
+    autoHideMenuBar: true,
+    width: 1200,
     height: 800,
-    titleBarStyle: "hidden",
     titleBarOverlay: {
       color: '#122932',
       symbolColor: '#FFFFFF',

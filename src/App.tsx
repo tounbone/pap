@@ -1,16 +1,16 @@
-import Navbar from "./components/Navbar";
+import Sidebar from "./components/Sidebar";
 import IniciarSessao from "./components/IniciarSessao";
-import Registar from "./components/Registar";
-import Performance from "./components/Performance";
 
 const App = () => {
   return (
     <>
-      <Navbar />
-      <div className="m-4 flex">
-      <div className="mr-4"><IniciarSessao /></div>
-        <div className="mr-4"><Registar /></div>
-        <div className="mr-4"><Performance /></div>
+      <div className="flex">
+        <Sidebar />
+        <div className="m-4 flex">
+          <div className="mr-4">
+            <IniciarSessao />
+          </div>
+        </div>
       </div>
     </>
   );
