@@ -68,7 +68,7 @@ export default function Sidebar() {
         <div className="flex items-center text-primary">
           <img src={logo} alt="Logo" className="w-12 rounded-full mr-2" />
           <div>
-            <p className="">Vasco Gaylord</p>
+            <p className="">Vasco Vasconcelos</p>
             <p className="text-xs">Online</p>
           </div>
         </div>
