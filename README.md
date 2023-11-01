@@ -1,19 +1,19 @@
 # Projeto PAP
 
-Curso GPSI - 3ºP 2021-2024
+**Curso GPSI - 3ºP 2021-2024**
+
 Feito por Anton, Vasco e talvez Eduardo.
 
-# Como testar o projeto
+### Como testar o projeto
 
-Transferir  > abrir num terminal > instalar dependências com o comando `npm install`
+Para executar o projeto é necessário **node.js** e **npm**.
 
-Iniciar o projeto React com Vite
+Iniciar o projeto React com Vite -
 `
 npm run dev
 `
 
-
-Iniciar a aplicação em Electron para Windows ou Mac
+Iniciar a aplicação em Electron para Windows ou Mac -
 `
 npm run electron
 `
