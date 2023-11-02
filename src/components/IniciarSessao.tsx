@@ -1,25 +1,25 @@
 export default function IniciarSessao() {
   return (
-    <div className="border border-primary rounded-lg">
-      <div className="p-3 rounded-t-lg bg-white border-primary">
+    <div className="border border-primary rounded-lg shadow-sm">
+      <div className="px-3 py-4 rounded-t-lg bg-white border-primary">
         <p className="font-bold">Iniciar sessão</p>
       </div>
       <div className="p-3 rounded-b-lg border-primary bg-primarylight">
         <label className="text-sm text-secondarylight font-thin">Email</label>
         <input
           type="text"
-          className="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400 mb-1"
+          className="border border-primary py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400 mb-1"
         ></input>
         <label className="text-sm text-secondarylight font-thin">
           Password
         </label>
         <input
           type="password"
-          className="py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400 mb-4"
+          className="border border-primary py-3 px-4 block w-full border-gray-200 rounded-md text-sm focus:border-blue-500 focus:ring-blue-500 dark:bg-slate-900 dark:border-gray-700 dark:text-gray-400 mb-6"
         ></input>
         <div className="flex">
           <div className="text-sm w-64">
-            <p className="font-light">Não está registado?</p>
+            <p>Não está registado?</p>
             <p className="font-semibold hover:underline hover:cursor-pointer">
               Crie uma conta
             </p>

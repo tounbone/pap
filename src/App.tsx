@@ -1,6 +1,9 @@
 import Sidebar from "./components/Sidebar";
 import IniciarSessao from "./components/IniciarSessao";
 import { useEffect } from 'react';
+import Correio from "./components/pages/Correio";
+import Calendario from "./components/pages/Calendario";
+import Inicio from "./components/pages/Inicio";
 
 const App = () => {
   useEffect(() => {
@@ -10,9 +13,9 @@ const App = () => {
     <>
       <div className="flex">
         <Sidebar />
-        <div className="m-2 flex">
-          <div className="mr-4 mx-auto">
-            <IniciarSessao />
+        <div className="flex">
+          <div>
+            <Correio/>
           </div>
         </div>
       </div>

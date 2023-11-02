@@ -5,17 +5,13 @@ function createWindow() {
   // Create the browser window.
   const win = new BrowserWindow({
     autoHideMenuBar: true,
-    width: 1200,
-    height: 800,
-    titleBarOverlay: {
-      color: '#122932',
-      symbolColor: '#FFFFFF',
-      height: 60
-    },
+    width: 1000,
+    height: 700,
     webPreferences: {
       nodeIntegration: true,
     },
   });
+  
 
   // and load the index.html of the app.
   // win.loadFile("index.html");
