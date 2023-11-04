@@ -14,10 +14,10 @@ export default function Inicio() {
               Reunião
             </h3>
             <p className="mt-1 text-xs font-medium uppercase text-gray-500 dark:text-gray-500">
-            13:00
+              13:00
             </p>
             <a
-              className="mt-3 inline-flex items-center gap-2 mt-5 text-sm font-medium text-blue-500 hover:text-blue-700"
+              className="mt-3 inline-flex items-center gap-2 text-sm font-medium text-blue-500 hover:text-blue-700"
               href="#"
             >
               Detalhes

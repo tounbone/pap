@@ -2,7 +2,7 @@ import SidebarPerfil from "./SidebarPerfil";
 
 export default function Sidebar() {
   return (
-    <div className="w-18 p-2 h-screen flex flex-col border-r border-primary bg-gray-100 dark:bg-slate-950">
+    <div className="w-18 p-2 h-screen flex flex-col border-r border-primary dark:border-gray-700 bg-gray-100 dark:bg-slate-950">
       <div className="flex-grow">
         <div className="max-w-xs flex flex-col rounded-md shadow-sm mb-2 bg-white">
           <button
@@ -125,10 +125,10 @@ export default function Sidebar() {
             </div>
           </span>
           <div
-            className="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible opacity-0 transition-opacity inline-block absolute invisible z-10 w-60 bg-white border text-left rounded-md shadow-md dark:bg-gray-900 dark:border-gray-700 dark:text-gray-400"
+            className="hs-tooltip-content hs-tooltip-shown:opacity-100 hs-tooltip-shown:visible opacity-0 transition-opacity inline-block absolute invisible z-10 w-60 bg-white border text-left rounded-lg shadow-md dark:bg-gray-900 dark:border-gray-700 dark:text-gray-400"
             role="tooltip"
           >
-            <SidebarPerfil/>
+            <SidebarPerfil />
           </div>
         </a>
       </div>
